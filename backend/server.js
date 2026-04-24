@@ -37,6 +37,3 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server Stated on http://localhost:${PORT}`);
 });
-
-// mongodb+srv://pnp_db_user:24785693@cluster0.ekczd0k.mongodb.net/?
-// optional mongodb+srv://pnp_db_user:24785693@cluster0.ekczd0k.mongodb.net/?appName=Cluster0
