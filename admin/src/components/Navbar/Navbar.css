@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 4%;
+}
+
+.navbar h2 {
+    width: max(10%,80px);
+}
+
+.navbar span {
+    font-size: 23px;
+}
+
+.navbar .cart-logo {
+
+    width: 27px;
+}
