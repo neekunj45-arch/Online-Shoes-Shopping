@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Home.css'
 import Header from '../../components/Header/Header'
 import ExploreItems from '../../components/ExploreItems/ExploreItems'
-import ProductDisplay from '../../components/productDisplay/productDisplay'
+import ProductDisplay from '../../components/ProductDisplay/ProductDisplay'
 const Home = () => {
 
   const [category,setCategory] = useState("All");
