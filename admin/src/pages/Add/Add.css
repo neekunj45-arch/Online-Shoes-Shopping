@@ -35,7 +35,7 @@
     width: 120px;
     border: none;
     padding: 10px;
-    background-color: #008000;
+    background-color: rgb(31, 31, 31);
     cursor: pointer;
     color: white;
     border-radius: 5px;
@@ -49,24 +49,46 @@
 
 @media (max-width:600px) {
 
+    .add {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
     .add-img-upload img {
         width: 40px;
-       
     }
-    .add {
-    
-        margin-top: 50px;
-        padding: 10px;
+
+    .add-product-name,
+    .add-product-description {
+        width: 100%;
     }
-    .add-product-name , .add-product-description {
-        width: max(40%,100%);
-    
+
+  
+    .add-product-name input,
+    .add-product-description textarea {
+        width: 100%;
+        box-sizing: border-box;
     }
+
     .add-category-price {
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 20px;
+        width: 100%;
     }
+
+    .add-category-price select,
+    .add-category-price input {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
     
-   
+    .add-btn {
+        width: 100%;
+    }
 }
