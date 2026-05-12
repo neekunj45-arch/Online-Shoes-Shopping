@@ -61,6 +61,9 @@ const PlaceOrder = () => {
     }
     let response = await axios.post(url+"/api/order/place",orderData,{headers:{token}});
     if (response.data.success) {
+      alert(
+        "⚠️ This is a test payment system.\n\nUse card: 4242 4242 4242 4242"
+      );
       const {session_url} = response.data;
       window.location.replace(session_url);      
     }
