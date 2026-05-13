@@ -1,14 +1,15 @@
+
 .header {
-    height: 40vw;
+    height: 40vw; 
     /* margin: 30px auto; */
-    margin-bottom: 30px;
+     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     background: url('/hero-image.webp') no-repeat;
     background-size: cover;
     position: relative;
-} 
+}  
 
 @media (max-width: 750px) {
     .header {
@@ -17,9 +18,3 @@
         background-size: cover;
     }
 }
-
-/* @media (max-width:1050px) {
-    .header {
-        height: 30vw;
-    }
-} */
